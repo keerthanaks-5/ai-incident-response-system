@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Incident Response System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="navbar-title">🏥 Incident Response System</span>
+        <div>
+            <a href="/dashboard" class="nav-link">Dashboard</a>
+            <a href="/logout" class="nav-link">Logout</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>AI-Powered Incident Response System</h1>
+        <p class="hero-subtitle">Real-time monitoring, machine learning anomaly detection, and automated alerting for microservices.</p>
+        
+        <a href="/dashboard" class="cta-button">Go to Dashboard →</a>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>📊 Live Monitoring</h3>
+            <p>Prometheus and Grafana track every request across login, order, and payment services in real time.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🤖 AI Anomaly Detection</h3>
+            <p>An Isolation Forest model learns normal traffic patterns and flags unusual spikes automatically.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🚨 Instant Alerts</h3>
+            <p>The moment an anomaly is detected, the team is notified via Slack with full incident context.</p>
+        </div>
+    </div>
+
+    <div class="tech-stack">
+        <h3>Built With</h3>
+        <div class="tech-badges">
+            <span class="badge">Python</span>
+            <span class="badge">Flask</span>
+            <span class="badge">Docker</span>
+            <span class="badge">Prometheus</span>
+            <span class="badge">Grafana</span>
+            <span class="badge">scikit-learn</span>
+            <span class="badge">Slack API</span>
+        </div>
+    </div>
+</body>
+</html>

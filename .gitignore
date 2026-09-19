@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Grafana data (too large to upload)
+grafana-data/
+
+# Incidents file (personal data)
+dashboard-app/incidents.json
+
+# VS Code settings
+.vscode/
