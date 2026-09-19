@@ -252,3 +252,26 @@ Final Year MCA | Cloud & DevOps
 - Grafana Documentation — https://grafana.com/docs
 - scikit-learn IsolationForest — https://scikit-learn.org
 - Docker Documentation — https://docs.docker.com
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](login%20page.png)
+
+### 🏠 Home Page
+![Home Page](home%20page.png)
+
+### 🟢 Dashboard — Service Health
+![Dashboard Health](dashboard%20health.png)
+
+### 📋 Dashboard — Incident Table
+![Incident Table](incident%20table.png)
+
+### 📊 Grafana Live Graph
+![Grafana Graph](grafana%20graph.png)
+
+### 🚨 Slack Alert
+![Slack Alert](slack%20alerting.png)
+
+### 📡 Prometheus Targets
+![Prometheus Targets](prometheus%20targets.png)
